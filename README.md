@@ -6,7 +6,7 @@ Studio menulis novel pribadi untuk satu pemilik. Situs statis (tanpa server dan 
 | Berkas | Fungsi |
 |---|---|
 | `index.html`, `app.js` | Aplikasi |
-| `config.js` | **Satu-satunya yang perlu kamu edit**: URL dan anon key Supabase |
+| `config.js` | URL dan anon key Supabase (sudah terisi untuk proyekmu) |
 | `schema.sql` | Skema database, RLS, dan fungsi simpan. Dijalankan sekali di Supabase |
 | `sw.js`, `manifest.webmanifest`, `icon-*.png` | PWA (bisa diinstal, shell tersedia offline) |
 | `vercel.json` | Header keamanan (CSP) untuk Vercel; diabaikan di host lain |
